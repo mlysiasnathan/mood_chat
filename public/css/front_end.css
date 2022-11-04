@@ -1,0 +1,198 @@
+@font-face
+{
+  font-family: poppins light;
+  src: url('fonts/Poppins-Light.ttf');
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: poppins light;
+
+}
+#carousel-inner
+{
+  border-radius: 15px;
+}
+#logo
+{
+  /* filter: blur(1px);
+  -webkit-filter: blur(4px); */
+  height: 430px;
+  width: 430px;
+  margin: 12%;
+}
+#logo-navbar
+{
+  height: 60px;
+  width: 60px;
+}
+#div-input
+{
+  border-radius: 30px;
+}
+
+#btn-login
+{
+  font-size: 15px;
+  border-radius: 30px;
+  width: 97%;
+  height: 45px;
+  background: linear-gradient(60deg,orange,red,black);
+  background-size: 200%;
+  color: #fff;
+  cursor: pointer;
+  transition: .5s;
+  margin: auto;
+
+}
+#btn-login:hover
+{
+  background-position: right;
+  font-size: 120%;
+}
+#validationCustomUsername
+{
+  border-radius: 0px 30px 30px 0px;
+  height: 45px;
+  color: red;
+}
+#inputGroupPrepend
+{
+  border-radius: 30px 0px 0px 30px;
+  font-weight: bold;
+  color: red;
+}
+#body
+{
+    background: linear-gradient(120deg,orange,red,red);
+}
+#link
+{
+  border-radius: 30px;
+}
+#row
+{
+  border-radius: 20px;
+  background-color: #f1f1f1;
+  
+}
+.container
+{
+  transition: 2s;
+}
+/*---index-people-------------------------------------------------------------------------------------------------------------------------------------------*/
+#accordionSidebar
+{
+  background: linear-gradient(0deg,orange,red);
+  background-attachment: fixed;
+}
+#notif
+{
+  background: linear-gradient(90deg,orange,red);
+}
+#footer,#modal-header
+{
+  background: linear-gradient(90deg,orange,red);
+}
+#profil
+{
+  height: 160px;
+  width: 160px;
+}
+#btn-comment
+{
+  border-radius: 2px;
+}
+#message-rec
+{
+  border-radius: 0px 20px 20px 20px;
+}
+#message-sent
+{
+  border-radius: 20px 20px 0px 20px;
+}
+
+
+#link-mes
+{
+  font-size: 15px;
+  border-radius: 5px;
+  width: 97%;
+  height: 45px;
+  background: linear-gradient(60deg,orange,red,black);
+  background-size: 200%;
+  color: #fff;
+  cursor: pointer;
+  transition: .5s;
+  margin: auto;
+}
+#link-mes:hover
+{
+  background-position: right;
+  font-size: 120%;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg,orange,red);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg,red,black);
+}
+#chatCard{
+  border-radius: 15px;
+  height: 80vh;
+}
+
+/* CAROUSSEL */
+.caroussel{
+  position: relative;
+}
+.carousselContainer{
+  transition: transform 0.3s;
+  transform: translate3d(0, 0, 0);
+}
+.carousselContainer::after{
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.carousselItem{
+  float: left;
+}
+.carousselPagination{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.carousselBtn{
+  background-color: #f6c23e;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.carousselBtnActive,.carousselBtn:hover{
+  transform: scale(1.4);
+}
